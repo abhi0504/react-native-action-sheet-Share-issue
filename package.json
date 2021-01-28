@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "3.0.0",
+  "description": "Hello react native action sheet!!",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "../src",
+    "@expo/vector-icons": "^10.0.0",
+    "expo": "^39.0.0",
+    "hoist-non-react-statics": "^3.3.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+    "react-native-share": "^5.1.0",
+    "react-native-web": "~0.13.7"
+  },
+  "devDependencies": {
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "babel-preset-expo": "^8.3.0",
+    "typescript": "~3.9.2"
+  }
+}
