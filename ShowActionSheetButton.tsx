@@ -50,9 +50,9 @@ export default class ShowActionSheetButton extends React.PureComponent<Props> {
     } = this.props;
 
     // Same interface as https://facebook.github.io/react-native/docs/actionsheetios.html
-    const options = ['Delete', 'Save', 'Share', 'Cancel'];
+    const options = ['Share'];
     const icons = withIcons
-      ? [icon('delete'), icon('save'), icon('share'), icon('cancel')]
+      ? [icon('share')]
       : undefined;
     const title = withTitle ? 'Choose An Action' : undefined;
     const message = withMessage
